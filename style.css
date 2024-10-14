@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(black,rgb(54, 54, 54));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    border: 2px solid white;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgb(155, 154, 154);
+}
+
+input{
+    padding: 20px;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    text-align: right;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+
+input::placeholder{
+    color: white;
+    font-size: 25px;
+}
+
+button{
+    margin: 10px;
+    padding: 12px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    box-shadow: 5px 5px 15px rgb(77, 74, 74);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.operator{
+    color: orange;
+}
+.equal{
+    background-color: rgb(92, 60, 0);
+}
